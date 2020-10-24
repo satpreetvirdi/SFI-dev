@@ -366,6 +366,19 @@
  var loaderPage = function() {
      $(".ftco-loader").fadeOut("very-slow");
  };
+ document.getElementById('email').addEventListener('click', ()=>{
+     document.querySelector('.bg-modal').style.display = 'flex';   
+ });
+
+ document.getElementById('close').addEventListener('click', ()=>{
+     document.querySelector('.bg-modal').style.display ='none';
+ });
+ document.getElementById('call').addEventListener('click', ()=>{
+    document.querySelector('.bg-modal2').style.display = 'flex';   
+});
+document.getElementById('close2').addEventListener('click', ()=>{
+    document.querySelector('.bg-modal2').style.display ='none';
+});
 
  $(function() {
 
